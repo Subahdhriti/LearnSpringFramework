@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="guru.springframework.springWebApp.domain.Author" name="author1">
+        <property name="firstName">
+            <value>Subhadhriti</value>
+        </property>
+        <property name="lastName">
+            <value>Maikap</value>
+        </property>
+    </bean>
+
+    <bean class="guru.springframework.springWebApp.domain.Book" name="book1">
+        <property name="title">
+            <value>Let's Go</value>
+        </property>
+        <property name="isbn">
+            <value>12345</value>
+        </property>
+    </bean>
+
+
+</beans>
